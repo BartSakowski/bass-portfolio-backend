@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/amps",
+      "handler": "amps.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/amps",
+      "handler": "amps.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/amps",
+      "handler": "amps.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pedals",
+      "handler": "pedals.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pedals",
+      "handler": "pedals.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pedals",
+      "handler": "pedals.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

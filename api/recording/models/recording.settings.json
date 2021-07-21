@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "recordings",
+  "info": {
+    "name": "Recording"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "gear": {
+      "type": "component",
+      "repeatable": true,
+      "component": "equipment.item"
+    },
+    "IsLeft": {
+      "type": "boolean"
+    }
+  }
+}

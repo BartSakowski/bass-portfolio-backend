@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recording",
+      "handler": "recording.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recording",
+      "handler": "recording.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recording",
+      "handler": "recording.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

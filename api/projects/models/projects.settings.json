@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "IsRight": {
+      "type": "boolean"
+    },
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.projects"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "name": "Projects",
+    "icon": "compact-disc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleOfProject": {
+      "type": "string"
+    },
+    "ProjectDescription": {
+      "type": "text"
+    },
+    "IsRight": {
+      "type": "boolean"
+    }
+  }
+}

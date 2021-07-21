@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/basses",
+      "handler": "basses.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/basses",
+      "handler": "basses.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/basses",
+      "handler": "basses.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

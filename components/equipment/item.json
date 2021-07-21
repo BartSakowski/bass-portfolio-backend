@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_equipment_items",
+  "info": {
+    "name": "Item",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "Name_Of_Gear": {
+      "type": "string"
+    },
+    "Image_Of_Gear": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
